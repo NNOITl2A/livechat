@@ -9,8 +9,21 @@ class App extends Component {
       <div className="App">
 
         <div id="livechat" className="livechat">
-          <div className="root">
+          <div className="wrap">
+
+            <div className="chatbox-wrap">
+              <div className="chatbox"></div>
+            </div>
+            
+
+            <div className="roomchat-wrap">
+              <div className="roomchat">
+                <button type="button" className=""></button>
+              </div>
+            </div>
           </div>
+
+
         </div>
 
       </div>
